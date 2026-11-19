@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "difficulty": "4/10 (PowerPyx)",
+    "difficultyShort": "4/10",
+    "timeToPlatinum": "~200 hours (PowerPyx); PushSquare says up to 300+ for completionists",
+    "timeShort": "~200 hours",
+    "storyHours": "60–80 hours across 5 chapters (PowerPyx walkthrough)",
+    "offlineTrophies": 55,
+    "onlineTrophies": 0,
+    "missableTrophies": "Potentially 1 — Positive Mental Attitude (Chapter 1 meditation). Nothing else is missable; every questline and collectible survives the story.",
+    "missableShort": "Potentially 1",
+    "glitchedTrophies": "0 reported at launch (PowerPyx)",
+    "difficultySettings": "None — one difficulty for everyone; no mission gold medals and no mission replay (PowerPyx). Keep manual saves at chapter boundaries.",
+    "replayShort": "None",
+    "cheats": "Using cheats disables trophies for the session (Mobalytics / GTA Base).",
+    "hundredPercent": "The 100% checklist unlocks after the story (Progress > Stats > 100% Completion) and is forgiving — closer to 60% of true completion. Story progress counts retroactively; nothing it requires is missable.",
+    "hundredShort": "~60% of the game",
+    "sources": [
+      { "label": "PowerPyx — Trophy Guide & Roadmap", "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap" },
+      { "label": "PowerPyx — Full Walkthrough (All Missions)", "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions" },
+      { "label": "PowerPyx — 100% Completion Checklist & Guide", "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide" },
+      { "label": "PushSquare — GTA 6 Trophy Guide & Roadmap", "url": "https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap" },
+      { "label": "GameTrek — Platinum Roadmap", "url": "https://gmtreks.com/gta6/page/01M7QSDE93TAHE8SSEFGG01CGV" }
+    ]
+  },
+  "stages": [
+    {
+      "id": 1,
+      "title": "Prologue & Chapter 1 — Just Like Paradise",
+      "hours": "Part of the 60–80 h story",
+      "summary": "Play the opening: Prologue, then Gone Fishing (Just Like Paradise) and the rest of Chapter 1. Paradise Lost pops as Chapter 2 begins. Do the one potentially missable thing in the whole game here: accept Lucia's meditation at Jason's house after Down to Earth. Start scanning vehicles and studying animals with binoculars from day one — both feed 100% later. Try an arcade game and one of each activity type when they appear.",
+      "trophyIds": [2, 3, 16, 21, 28],
+      "warnings": [
+        "MISSABLE RISK — Positive Mental Attitude: after Chapter 1's Down to Earth, talk to Lucia in the kitchen in the morning, follow her to the balcony and choose Accept. This first meditation vanishes after Chapter 1.",
+        "Shirley's two Chapter 1 errands (Get Shirley's Rum, Steal the Scooter) are missable content but do NOT affect trophies or 100% — do them for completeness, not platinum."
+      ],
+      "tips": [
+        "Kirk's Skunk Ape strand starts here (night-only steps) and counts toward Strangers & Freaks; it finishes in Chapter 2.",
+        "Meet Cal in Feng Shui — his fishing texts (Baited My Tackle) follow later.",
+        "No mission replay exists: make a manual save at the start and end of each chapter."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Chapter 2 — Paradise Lost",
+      "hours": "Part of the 60–80 h story",
+      "summary": "The Lucia-led chapter while Jason recovers at the Starlet Motel. T**s Ass Drug Money pops at the chapter's end; Trust fires during Breakfast Run early on. Daily Driver introduces Moses: the Scooter Bros app and Vice City Real Estate app unlock here — the backbone of On the Spot and Little Boxes. Hit Kingpin Bowling when it marks (Let's Go Bowling). Coffee Break unlocks playing both characters together — meditation spots now count +2 with your partner.",
+      "trophyIds": [4, 8, 46, 20, 29],
+      "warnings": [
+        "Let's Go Bowling: loot ALL 3 key valuables at Kingpin Bowling (watch, Gutterball Moreland 850 shotgun, sticky-bombed safe) and escape. The icon respawns only after a long in-game cooldown."
+      ],
+      "tips": [
+        "Billy's Mud Club jobs (Thrillbillies, Twist Wrist Smash Grab) start here — The Lone Rider's strand.",
+        "Veteran Hunted (Meet Bret) is Jason-only — start Fair Game's hunting line near Mount Kalaga.",
+        "Pawn shops unlock after Coffee Break; rob each fully (back-room safe included) for 100%.",
+        "Cal's fishing challenge texts arrive after Feng Shui — beat him for Baited My Tackle."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Chapter 3 — T**s Ass Drug Money",
+      "hours": "Part of the 60–80 h story",
+      "summary": "Vice City opens up. Vice City, Baby! pops after Chapter 4's first two missions (Ocean Beach & Another Life) — a documented timing quirk. Break the Bank fires during The Cartel Heist. This chapter unlocks the big money tools: Yasmani's Jewelry Jobs (Snap Gun + jewelry stores → Sneakthief, Retail Therapy), Clonin' Keys Makin' Gs (Key Cloner → Capital Offense), Credit Check (Dye Pack Jammer → Dime on the Dollar). Andy's Lucia-only strand and Randy's Wish List start here.",
+      "trophyIds": [5, 9, 34, 39, 45, 44, 22, 26, 27],
+      "warnings": [
+        "Retail Therapy needs 3 shops back-to-back WITH your partner while keeping the wanted level — the 3 north Vice City jewelry stores are the cleanest route."
+      ],
+      "tips": [
+        "Capital Offense: only the blue Banshee in the south Vice City showroom works — hack it with the Key Cloner and drive through the window.",
+        "In The Beginning…: Ocean View Rooftop Bar, buy an Apple Martini, drink it next to the bar.",
+        "Andy calls Lucia after Mami Knows Best / Car Service — 5 missions end with Puff Puff Pass (Road to Rehabilitation).",
+        "Randy's car deliveries pay ~$35k per perfect sports car and count as optional tasks; Tyrone's Synthetic Labs start after Here, Kitty Kitty.",
+        "Yago's street-race strand counts toward Strangers & Freaks; his Race Against Yago is time-sensitive but trophy-irrelevant."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chapter 4 — Vice City, Baby!",
+      "hours": "Part of the 60–80 h story",
+      "summary": "The heist chapter: Child's Play (Family Matters), Headliners (DWNFALL) and the VCIA Takedown airport heist (Hi-Jacked) all fire here. Top Of The World, Ma pops after Starting From Zero, the chapter's last main mission. The optional mission That's Where The Money Is… (Wait at the Cafe) unlocks bank vaults — Maximum Withdrawal's endgame feature — and hands you Hot Together automatically. Steal a docked airliner at VCIA for Catch Me If You Can.",
+      "trophyIds": [6, 10, 11, 12, 33, 37],
+      "warnings": [
+        "Catch Me If You Can: the plane must be docked at a boarding bridge (E3/E4) — airfield planes don't count. Fly ~1 km out before it pops."
+      ],
+      "tips": [
+        "Hot Together fallback: lose a 4-star level with your partner in the train tunnel north of Ambrosia (Kelly County) and drive out of the red heat zone.",
+        "Bank vaults: follow a security van to a Large Bank, wait for the guard's briefcase to open the vault, loot and escape. 8 vaults exist; 5 earn the silver."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chapter 5 — Top of the World, Ma",
+      "hours": "Part of the 60–80 h story",
+      "summary": "The finale. Snow Storm fires during Operation Savage Glory mid-chapter; You Gotta Know When to Get Off (gold) pops on The End of the Road, the final mission. Make a manual save before the last missions — there is no mission replay. After the credits you're returned to free-roam with the 100% checklist unlocked.",
+      "trophyIds": [7, 13],
+      "warnings": [],
+      "tips": [
+        "Chapter 5 mission order (PowerPyx): Bird in the Hand, Taking Liberties, Doggie Bag, VC Baby, Operation Savage Glory, Honest Abe, Unfinished Business, Pay Abe's Fee, Protective Custody, The End of the Road."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Post-story cleanup — A Long Road (100%)",
+      "hours": "~100 hours (PowerPyx Step 2)",
+      "summary": "Everything left is doable in free-roam — nothing required for trophies or 100% is missable. Work the 100% checklist (Progress > Stats) and the trophy list together: most requirements overlap. Finish character strands if any remain (Andy, Kenton, Billy, Randy, Tyrone, Bret, Cal), complete 8 qualifying Strangers & Freaks strands, then grind the counts: 250 stunts, 42 range golds, 14 drone locations, 20 race wins, 18 meditations, 3 card sets, 100 WAiNK scans, 50 challenges, 100 vehicles, full map unfog, 9 gangs, 5 vaults, $250k laundered, $100k spent, 8 garages, 10 registrations. A Long Road (gold) pops at 100%.",
+      "trophyIds": [14, 15, 17, 18, 19, 23, 24, 25, 30, 31, 32, 35, 36, 38, 40, 41, 42, 43, 47, 48, 49, 50, 51, 52, 53, 54, 55],
+      "warnings": [
+        "Three hidden trophies have no confirmed method at launch (Personal Best, Bad Luck I Guess, Ten Pin) — PowerPyx lists them as unknown. Check the cited sources for updates rather than guessing."
+      ],
+      "tips": [
+        "The Truth Is Out There: UFO event on Butternut Rd near the Starlet Motel, Kelly County, at night (~2 a.m.).",
+        "Challenging Tank: unlocked Rhinos at Mile Zero Air Station (Mariana County) — enter and shoot enemies; instant 3-star heat.",
+        "Strangers & Freaks: only certain strands count (Kirk, Kyle, Yago, Pilot Pete + others); trophy-holding contacts don't count.",
+        "100% is ~60% of true completion: 15/18 card sets, 100/125 flamingos, 70/80 challenges, 300/397 stunts — skip the hardest."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Platinum — Vice Got a Price!",
+      "hours": "The final pop",
+      "summary": "With all 54 other trophies earned, the platinum unlocks. No online, no DLC, no difficulty requirement — just the base game's 55. Congratulations: you're a Leonida Legend.",
+      "trophyIds": [1],
+      "warnings": [],
+      "tips": []
+    }
+  ]
+}

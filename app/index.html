@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Legend — GTA VI Trophy Guide &amp; Tracker</title>
+<meta name="description" content="Offline guide and tracker for all 55 Grand Theft Auto VI PlayStation 5 trophies: cited guides, a platinum roadmap, missable flags, filters, export/import and a spoiler-safe mode.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23ff2e88' d='M8 4h16v6a8 8 0 0 1-16 0z'/%3E%3Cpath fill='%2322d3ee' d='M13 18h6v4h-6zM10 24h12v4H10z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="wordmark">LEONIDA<span>LEGEND</span></div>
+    <p class="tagline">Grand Theft Auto VI · PlayStation 5 · trophy guide &amp; tracker</p>
+  </div>
+  <div class="progress" id="progress" aria-label="Trophy progress"></div>
+</header>
+
+<nav class="tabs" id="tabs" aria-label="Views">
+  <button type="button" data-view="trophies" class="active">Trophies</button>
+  <button type="button" data-view="roadmap">Roadmap</button>
+  <button type="button" data-view="missables">Missables</button>
+  <button type="button" data-view="about">About &amp; Sources</button>
+</nav>
+
+<main>
+  <section id="view-trophies" class="view">
+    <div class="toolbar">
+      <div class="toolbar-row">
+        <input id="search" type="search" placeholder="Search name, description or guide…" aria-label="Search trophies">
+        <select id="grade-filter" aria-label="Filter by grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+        <label class="toggle" title="Hide the names and descriptions of unearned story trophies"><input type="checkbox" id="spoiler-toggle"> Spoiler-safe</label>
+        <label class="toggle"><input type="checkbox" id="hide-earned"> Hide earned</label>
+        <span class="io">
+          <button type="button" id="export-btn" title="Download your progress as a JSON file">Export</button>
+          <button type="button" id="import-btn" title="Restore progress from a JSON file">Import</button>
+          <input type="file" id="import-file" accept=".json,application/json" hidden>
+          <button type="button" id="reset-btn" class="danger" title="Clear all earned marks">Reset</button>
+        </span>
+      </div>
+      <div class="toolbar-row chips" id="kind-chips" aria-label="Filter by kind"></div>
+    </div>
+    <div class="split">
+      <div class="list-col">
+        <div class="list-head" id="list-head"></div>
+        <ul id="trophy-list" class="trophy-list"></ul>
+      </div>
+      <aside class="detail-col" id="trophy-detail" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden></section>
+  <section id="view-missables" class="view" hidden></section>
+
+  <section id="view-about" class="view" hidden>
+    <div class="prose">
+      <h2>About this guide</h2>
+      <p><strong>Leonida Legend</strong> is an offline guide and tracker for all <strong>55 PlayStation 5 trophies</strong> of Grand Theft Auto VI (1 platinum, 2 gold, 6 silver, 46 bronze — 28 hidden on PSN until earned). It is a fan-made work written for the make.fun <em>gta6-trophy-guide-01</em> bounty; it is not affiliated with Rockstar Games and uses no official logos, artwork or game screenshots. Every guide is written in our own words and cites the launch guides and trackers it draws on.</p>
+      <h3>How to use the tracker</h3>
+      <ul>
+        <li>Tick a trophy when it pops. Progress is saved in your browser (<code>localStorage</code>) — no account, no network.</li>
+        <li><strong>Export</strong> downloads your progress as a JSON file; <strong>Import</strong> restores it on any machine. <strong>Reset</strong> clears all marks.</li>
+        <li><strong>Spoiler-safe</strong> hides the names, descriptions and guides of unearned <em>story</em> trophies until you mark them earned — the roadmap masks them too.</li>
+        <li>Filter by kind (story, missable, collectibles, activities, online), grade, or free-text search; hide earned trophies to see only what's left.</li>
+      </ul>
+      <h3>Data &amp; honesty policy</h3>
+      <ul>
+        <li>Official names, descriptions and grades are shown exactly as PlayStation publishes them, per the launch list tracked by <a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" target="_blank" rel="noopener">PSNProfiles</a> and <a href="https://www.exophase.com/game/grand-theft-auto-vi-xbox/achievements" target="_blank" rel="noopener">Exophase</a> (both agree on every entry).</li>
+        <li>The roadmap and missable flags are built from the official descriptions plus the cited launch guides. <strong>One trophy is potentially missable</strong> — Positive Mental Attitude (Chapter 1 meditation). Nothing else is missable: every questline and collectible survives the story, and nothing the 100% checklist requires can be locked out.</li>
+        <li>Three hidden trophies had <strong>no confirmed unlock method at launch</strong> (Personal Best, Bad Luck I Guess, Ten Pin). They are marked <em>unverified</em> and this guide does not invent steps for them.</li>
+        <li>Hidden status: 26 of the 28 hidden trophies are identified from PushSquare / PC Gamer spoiler gates; the remaining few gameplay trophies are unconfirmed and shown without a Hidden badge.</li>
+        <li>Tracked counts (250 stunts, 42 range golds, 14 drone locations, 18 meditations, 100 WAiNK scans, 500 criminal-profile actions, …) come from the launch list data and the cited guides.</li>
+        <li>This app makes <strong>no network requests</strong>: every file it loads ships with it. Source links open only when you follow them.</li>
+      </ul>
+      <h3>Sources cited in the guides</h3>
+      <ol class="sources-big">
+        <li><a href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap" target="_blank" rel="noopener">PowerPyx — GTA 6 Trophy Guide &amp; Roadmap</a> (per-trophy solutions, roadmap, missable note; Nov 18 2026)</li>
+        <li><a href="https://www.powerpyx.com/gta-6-100-completion-checklist-guide" target="_blank" rel="noopener">PowerPyx — 100% Completion Checklist &amp; Guide</a></li>
+        <li><a href="https://www.powerpyx.com/gta-6-full-walkthrough-all-missions" target="_blank" rel="noopener">PowerPyx — Full Walkthrough, All Missions</a> (chapter structure, questlines)</li>
+        <li><a href="https://www.powerpyx.com/gta-6-collectible-guide-progress-database" target="_blank" rel="noopener">PowerPyx — Collectible Guide / Progress Database</a> (counts: vehicles, animals, stunts, gangs, ranges)</li>
+        <li><a href="https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions" target="_blank" rel="noopener">PowerPyx — All Strangers &amp; Freaks Side Missions</a></li>
+        <li>PowerPyx location guides: <a href="https://www.powerpyx.com/gta-6-all-waink-scan-locations" target="_blank" rel="noopener">WAiNK scans</a>, <a href="https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations" target="_blank" rel="noopener">Top Fun drone races</a>, <a href="https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities" target="_blank" rel="noopener">unique races</a>, <a href="https://www.powerpyx.com/gta-6-all-garage-locations" target="_blank" rel="noopener">garages</a>, <a href="https://www.powerpyx.com/gta-6-all-video-game-locations" target="_blank" rel="noopener">arcade games</a>, <a href="https://www.powerpyx.com/gta-6-military-tank-location" target="_blank" rel="noopener">Rhino tank</a>, <a href="https://www.powerpyx.com/gta-6-all-challenges-guide" target="_blank" rel="noopener">challenges</a>, <a href="https://www.powerpyx.com/gta-6-how-to-summon-vehicles" target="_blank" rel="noopener">Scooter Bros</a></li>
+        <li>PowerPyx mission walkthroughs: <a href="https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough" target="_blank" rel="noopener">Hit Kingpin Bowling</a>, <a href="https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough" target="_blank" rel="noopener">Yasmani's Jewelry Jobs</a>, <a href="https://www.powerpyx.com/gta-6-puff-puff-pass-meet-at-the-warehouse-walkthrough" target="_blank" rel="noopener">Puff Puff Pass</a>, <a href="https://www.powerpyx.com/gta-6-climbing-the-cellerichain-walkthrough" target="_blank" rel="noopener">Climbing the Cellerichain</a>, <a href="https://www.powerpyx.com/gta-6-gone-fishing-walkthrough" target="_blank" rel="noopener">Gone Fishing</a>, <a href="https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough" target="_blank" rel="noopener">Veteran Hunted</a>, <a href="https://www.powerpyx.com/gta-6-moses-take-a-vehicle-to-moses-walkthrough" target="_blank" rel="noopener">Moses</a>, <a href="https://www.powerpyx.com/gta-6-whats-in-the-bag-walkthrough" target="_blank" rel="noopener">What's in the Bag?</a></li>
+        <li>PowerPyx video guides: <a href="https://www.youtube.com/watch?v=RMWPZ3cSF3A" target="_blank" rel="noopener">Catch Me If You Can</a>, <a href="https://www.youtube.com/watch?v=hW5O_aLj-lY" target="_blank" rel="noopener">Retail Therapy</a>, <a href="https://www.youtube.com/watch?v=tsWwtBxLY5g" target="_blank" rel="noopener">Capital Offense</a>, <a href="https://www.youtube.com/watch?v=dtyMTdma2J8" target="_blank" rel="noopener">In The Beginning…</a>, <a href="https://www.youtube.com/watch?v=rmyoDvxiLMw" target="_blank" rel="noopener">Challenging Tank</a></li>
+        <li><a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi" target="_blank" rel="noopener">PSNProfiles — Grand Theft Auto VI trophy list</a> (official names, descriptions, grades, live rarity)</li>
+        <li><a href="https://www.exophase.com/game/grand-theft-auto-vi-xbox/achievements" target="_blank" rel="noopener">Exophase — Grand Theft Auto VI achievements</a></li>
+        <li><a href="https://www.pushsquare.com/guides/gta-6-trophy-guide-and-roadmap" target="_blank" rel="noopener">PushSquare — GTA 6 Trophy Guide &amp; Roadmap</a> (hidden-trophy gates, stunt types, 100% notes)</li>
+        <li><a href="https://www.pcgamer.com/games/grand-theft-auto/gta-6-achievements-list" target="_blank" rel="noopener">PC Gamer — GTA 6 achievement list</a> (hidden-trophy identification, categories)</li>
+        <li><a href="https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements" target="_blank" rel="noopener">Insider Gaming — Complete GTA 6 Trophy List</a> (28 hidden, list cross-check)</li>
+        <li><a href="https://www.trueachievements.com/a677829/the-truth-is-out-there-achievement" target="_blank" rel="noopener">TrueAchievements — The Truth Is Out There</a> and <a href="https://www.trueachievements.com/a677817/challenging-tank-achievement" target="_blank" rel="noopener">Challenging Tank</a> community solutions</li>
+        <li><a href="https://gameshorizon.com/games/gta-6-ufo-event-location" target="_blank" rel="noopener">GamesHorizon — GTA 6 UFO Event Location</a></li>
+        <li><a href="https://gmtreks.com/gta6/page/01M7QVGK6BDTA8232FS0MEXMBE" target="_blank" rel="noopener">GameTrek — Strangers and Freaks Guide</a> and <a href="https://gmtreks.com/gta6/page/01M7QSDE93TAHE8SSEFGG01CGV" target="_blank" rel="noopener">Platinum Roadmap</a></li>
+        <li><a href="https://space4games.com/en/games-en/gta-6-trophy-guide" target="_blank" rel="noopener">space4games — GTA 6 Trophies: All 55 Unlock Requirements</a> and <a href="https://space4games.com/en/games-en/gta-6-all-missions-chapters-story-progress" target="_blank" rel="noopener">Mission List: All 5 Chapters</a></li>
+        <li><a href="https://www.thebiglead.com/gta-6-trophy-achievement-list" target="_blank" rel="noopener">TheBigLead — GTA 6 trophy/achievement list</a> (500-action count)</li>
+        <li><a href="https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-all-trophies" target="_blank" rel="noopener">Mobalytics — Full Trophy List &amp; Walkthrough</a> (cheats disable trophies; post-story free-roam)</li>
+      </ol>
+      <p class="fine">Launch-week data (Nov 19–20 2026). Where the community has not confirmed a method, this guide says so instead of guessing. Trophy names and descriptions are PlayStation's official text; all guide prose is original to this entry.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>Fan-made guide · not affiliated with Rockstar Games · no official assets</span>
+  <span>Runs fully offline · progress stays in your browser</span>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

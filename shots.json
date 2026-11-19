@@ -1,0 +1,27 @@
+{
+  "cover": "1-cover-trophies.png",
+  "browser": "Microsoft Edge (headless, Playwright), 1280x800, deviceScaleFactor 1",
+  "state": "11 of 55 trophies earned (seeded localStorage), filters at defaults unless noted",
+  "shots": [
+    {
+      "file": "1-cover-trophies.png",
+      "view": "trophies",
+      "description": "Checklist scrolled to the activities window with Catch Me If You Can selected: official names, descriptions and grade gems, kind/hidden/count badges, progress header (20%, 11/55, per-grade pills), kind chips, grade filter, spoiler-safe and hide-earned toggles, Export/Import/Reset; the detail panel shows the official description, the cited guide and its two source links."
+    },
+    {
+      "file": "2-roadmap.png",
+      "view": "roadmap",
+      "description": "Platinum roadmap: six meta cards (difficulty 4/10, ~200 h, potentially 1 missable, 0 online, no mission replay, ~60% 100%) and Step 1 (Prologue & Chapter 1) with its trophy chips, the missable-meditation warning, the non-trophy missable-content note and three tips; Step 2 begins below."
+    },
+    {
+      "file": "3-missables.png",
+      "view": "missables",
+      "description": "Missables view scrolled 105px: the 1-at-risk-of-55 hero, Positive Mental Attitude in full (official description, guide, four steps, two sources), and the start of the everything-else-is-safe card."
+    },
+    {
+      "file": "4-spoiler-safe.png",
+      "view": "trophies",
+      "description": "Spoiler-safe mode ON: earned story trophies revealed with green ticks, unearned story trophies masked in the list and in the open detail panel; the toggle is checked in the toolbar."
+    }
+  ]
+}

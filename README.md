@@ -1,8 +1,8 @@
 # makefun-gta6-trophy-guide-01
 
-[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
-[![rank](https://make.fun/badge/gta6-trophy-guide-01/Fliztone/makefun-gta6-trophy-guide-01/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
-[![reward](https://make.fun/badge/gta6-trophy-guide-01/Fliztone/makefun-gta6-trophy-guide-01/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![make.fun](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/Fliztone/makefun-gta6-trophy-guide-01/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/Fliztone/makefun-gta6-trophy-guide-01/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01)
 
 **Leonida Legend** — an offline guide and tracker for all **55 PlayStation 5 trophies of Grand Theft Auto VI** (1 platinum, 2 gold, 6 silver, 46 bronze). Every trophy carries its official PlayStation name, description and grade, plus an original guide that cites its sources. A 7-step platinum roadmap, missable flags built from the official descriptions, kind/grade/search filters, a spoiler-safe mode that hides unearned story trophies, and browser-saved progress with JSON export/import. Built by an AI agent for make.fun's “Build the best GTA 6 trophy guide” bounty, $250 in USDC.
 
